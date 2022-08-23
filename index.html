@@ -1,0 +1,613 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Columbia Transactional Email Clone</title>
+  <style type="text/css">
+    body {
+        margin: 0;
+        background-color: #cccccc;
+    }
+    table {
+        border-spacing: 0;
+    }
+    td {
+        padding: 0;
+    }
+    img {
+        border: 0;
+    }
+    p {
+        margin: 0;
+    }
+    .wrapper {
+        width: 100%;
+        table-layout: fixed;
+        background-color: #cccccc;
+        padding-bottom: 10px;
+    }
+    .main {
+        background-color: #ffffff;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        border-spacing: 0;
+        font-family: Arial,sans-serif;
+        color: #000000;
+    }
+  </style>
+</head>
+
+<!-- https://i.ibb.co/3zw68Cr/columbia-adventure.png
+https://i.ibb.co/87vNS8T/columbia-icon-find-store.png
+https://i.ibb.co/n3TYc3f/columbia-icon-gift-cards.png
+https://i.ibb.co/cywzfN3/columbia-icon-rewards.png
+https://i.ibb.co/cxrXXC5/columbia-item-1.jpg
+https://i.ibb.co/gJXh0zD/columbia-item-2.jpg
+https://i.ibb.co/FhyJ5Wd/columbia-logo.png
+https://i.ibb.co/nzQ7yhQ/columbia-members.png
+https://i.ibb.co/Yp616qx/columbia-rewards.png
+https://i.ibb.co/7nYWJTV/columbia-shipping.png
+https://i.ibb.co/w0Kp7t8/columbia-shopping.png
+https://i.ibb.co/SvsB45H/columbia-social-fb.png
+https://i.ibb.co/8bRSvkC/columbia-social-insta.png
+https://i.ibb.co/BBPR8RQ/columbia-social-pint.png
+https://i.ibb.co/Y2BZndk/columbia-social-twtr.png
+https://i.ibb.co/b1YCBZM/columbia-social-yt.png -->
+
+<body>
+    <center class="wrapper">
+        <table class="main" role="presentation">
+            <tr>
+                <td>
+                    <table style="width: 100%; text-align: center;">
+                        <tr>
+                            <td style="padding: 20px 0; font-size: 10px;">
+                                <p>Order Confirmation 
+                                    <a style="color: #010101;" href="#abc" alt="Shop Now">Shop Now »</a> | 
+                                    <a style="color: #010101;" href="#abc" alt="View Online" >View Online</a>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="width: 100%; text-align: center; background-color: #333333;">
+                        <tr>
+                            <td style="padding: 16px 0;">
+                                <a href="#abc">
+                                    <img src="https://i.ibb.co/FhyJ5Wd/columbia-logo.png" alt="Columbia Logo" title="Columbia">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table style="width: 100%; max-width: 270px; margin: 0 auto; padding-bottom: 35px; font-size: 16px;">
+                                    <tr>
+                                        <td>
+                                            <a style="text-decoration: none;  color: #ffffff;" href="#abc" alt="Men">Men</a>
+                                        </td>
+                                        <td>
+                                            <a style="text-decoration: none;  color: #ffffff;" href="#abc" alt="Women">Women</a>
+                                        </td>
+                                        <td>
+                                            <a style="text-decoration: none;  color: #ffffff;" href="#abc" alt="Kids">Kids</a>
+                                        </td>
+                                        <td>
+                                            <a style="text-decoration: none;  color: #ffffff;" href="#abc" alt="Footware">Footware</a>
+                                        </td>
+                                        <td>
+                                            <a style="text-decoration: none;  color: #ffffff;" href="#abc" alt="Sale">Sale</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="width: 100%; text-align: center; font-size: 14px; line-height: 20px;">
+                        <tr>
+                            <td style="padding: 20px; color: #222222;">
+                                <p style="font-weight: 600;">Hi {Username},</p>
+                                <br>
+                                Thanks for shopping Columbia. We're processing your order and will keep you apprised of any
+                                 changes via email. Please note that orders with multiple items may be shipped in separate boxes, with no additional shipping charges.
+                                  Because orders are processed quickly, we are unable to modify or cancel your order once it's processed.
+                                  <br><br>
+                                Your order number is <a style="text-decoration: none; color: #202045;" href="#abc">{order-number}</a> 
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="width: 100%; text-align: center; background-color: #f5f5f5; border-bottom: 1px solid #c6c6c6;">
+                        <tr>
+                            <td style="padding: 13px;">
+                                <p style="font-size: 18px; font-weight: 100; color: #222222;">Your Order Summary</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;  padding: 40px 0; color: #222222; border-bottom: 1px solid #c6c6c6;">
+                    <table style="width: 100%; max-width: 280px; display: inline-block; text-align: center;">
+                        <tr>
+                            <td style="text-align: right; padding-left: 60px;">
+                                <img src="https://i.ibb.co/cxrXXC5/columbia-item-1.jpg" alt="order item" width="150px">
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="width: 100%; max-width: 280px; display: inline-block;">
+                        <tr>
+                            <td>
+                                <table style="text-align: left; font-size: 13px; padding: 20px 0 0;">
+                                    <tr>
+                                        <td style="padding-bottom: 12px;">
+                                            <p style="font-size: 14px; font-weight: 600;">Men's PFG Slack Tide™ Camp Shirt</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table style="width: 150px; line-height: 17px;">
+                                                <tr>
+                                                    <td>
+                                                        Style #:
+                                                    </td>
+                                                    <td>
+                                                        1577051 <!--value-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Color:
+                                                    </td>
+                                                    <td>
+                                                        Carbon <!--value-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Size:
+                                                    </td>
+                                                    <td>   
+                                                        M <!--value-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 8px;"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-weight: 600;">
+                                                        Item Price:
+                                                    </td>
+                                                    <td>
+                                                        $33.75 <!--value-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-weight: 600;">
+                                                        Qty:
+                                                    </td>
+                                                    <td>
+                                                        1 <!--value-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-weight: 600;">
+                                                        Subtotal:
+                                                    </td>
+                                                    <td>
+                                                        $33.75 <!--value-->
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </tr>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center;  padding: 40px 0; color: #222222; border-bottom: 1px solid #c6c6c6;">
+                    <table style="width: 100%; max-width: 280px; display: inline-block; text-align: center;">
+                        <tr>
+                            <td style="text-align: right; padding-left: 60px;">
+                                <img src="https://i.ibb.co/gJXh0zD/columbia-item-2.jpg" alt="order item" width="150px">
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="width: 100%; max-width: 280px; display: inline-block;">
+                        <tr>
+                            <td>
+                                <table style="text-align: left; font-size: 13px; padding: 20px 0 0;">
+                                    <tr>
+                                        <td style="padding-bottom: 12px;">
+                                            <p style="font-size: 14px; font-weight: 600;">Men's PFG Slack Tide™ Camp Shirt</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <table style="width: 150px; line-height: 17px;">
+                                                <tr>
+                                                    <td>
+                                                        Style #:
+                                                    </td>
+                                                    <td>
+                                                        1577051 <!--value-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Color:
+                                                    </td>
+                                                    <td>
+                                                        Black <!--value-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        Size:
+                                                    </td>
+                                                    <td>   
+                                                        M <!--value-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="padding: 8px;"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-weight: 600;">
+                                                        Item Price:
+                                                    </td>
+                                                    <td>
+                                                        $33.75 <!--value-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-weight: 600;">
+                                                        Qty:
+                                                    </td>
+                                                    <td>
+                                                        1 <!--value-->
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-weight: 600;">
+                                                        Subtotal:
+                                                    </td>
+                                                    <td>
+                                                        $33.75 <!--value-->
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </tr>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="width: 100%; background-color: #f5f5f5; border-bottom: 1px solid #c6c6c6;">
+                        <tr>
+                            <td style=" padding: 0 60px;">
+                                <table style="width: 100%; line-height: 22px; font-size: 14px; margin: auto; padding: 15px 0;"><!--center-->
+                                    <tr>
+                                        <td style="font-weight: 600; text-align: left;">
+                                           Subtotal
+                                        </td>
+                                        <td style="text-align: right;">
+                                            $67.50 <!--value-->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: 600; text-align: left;">
+                                            Shipping
+                                        </td>
+                                        <td style="text-align: right;">
+                                            FREE <!--value-->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: 600; text-align: left;">
+                                            Salex Tax:
+                                        </td>
+                                        <td style="text-align: right;">
+                                            $4.39 <!--value-->
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="font-weight: 600; text-align: left;">
+                                            Order Total:
+                                        </td>
+                                        <td style="font-weight: 600; text-align: right;">
+                                            $71.89 <!--value-->
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align: center; font-size: 14px; line-height: 22px; padding: 15px 0 0 60px; color: #222222; border-bottom: 1px solid #c6c6c6; background-color: #f5f5f5">
+                    <table style="width: 100%; max-width: 240px; display: inline-block; text-align: left; padding-bottom: 30px;">
+                        <tr>
+                            <td style="font-weight: 600;">
+                                Billing Address:
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 6px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 600;">
+                                FirstName LastName
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                12345 Street Rd <br>
+                                #Apt
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                City, ST 10001
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                US
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 600;">
+                                Payment Method:
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Visa XXXX-XXXX-XXXX-1234
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Amount $71.89
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="width: 100%; max-width: 240px; display: inline-block; text-align: left; padding-bottom: 30px;">
+                        <tr>
+                            <td style="font-weight: 600;">
+                                Shipping Address:
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 6px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 600;">
+                                FirstName LastName
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                12345 Street Rd <br>
+                                #Apt
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                City, ST 10001
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                US
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                (123) 456-7890
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px;"></td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: 600;">
+                                Shipping Method:
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Standard Delivery
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 40px 15px 30px; width: 100%; text-align: center; font-size: 14px; border-bottom: 1px solid #c6c6c6;">
+                    <p>
+                        You can check your <a style="text-decoration: none; font-weight: 600; color: #222222" href="#abc">order status</a> at any time. Please retain this email for future reference, or log into <a style="text-decoration: none; font-weight: 600; color: #222222" href="#abc">My Account</a> for more information.
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; text-align: center; padding: 20px; font-size: 11px; line-height: 16px; border-bottom: 1px solid #c6c6c6;">
+                    <p style="font-weight: 600; font-size: 12px;">CAN WE HELP?</p>
+                    <p>Visit <a style="text-decoration: none; color: #2a5296;" href="#abc">Columbia Customer Care</a> or call <a style="text-decoration: none; color: #2a5296;" href="#abc">(800) 555-5555.</a></p>
+                    <p><a style="text-decoration: none; color: #222222" href="#abc">See hours here <span style="font-size: 8px; vertical-align: middle;">></a></p>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; text-align: center; padding: 30px 0 10px;">
+                    <a href="#abc">
+                        <img src="https://i.ibb.co/Yp616qx/columbia-rewards.png" alt="Columbia Greater Rewards" width="290px">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; text-align: center; padding: 5px 0 10px;">
+                    <a href="#abc">
+                        <img src="https://i.ibb.co/3zw68Cr/columbia-adventure.png" alt="join the adventure" width="215px">
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; text-align: center;">
+                    <table style="max-width: 190px; display: inline-block;">
+                        <tr>
+                            <td style="padding: 20px;">
+                                <a href="#abc">
+                                    <img style="text-align: center;" src="https://i.ibb.co/7nYWJTV/columbia-shipping.png" alt="shipping" width="140px">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="max-width: 190px; display: inline-block;">
+                        <tr>
+                            <td style="padding: 20px;">
+                                <a href="#abc">
+                                    <img style="text-align: center;" src="https://i.ibb.co/w0Kp7t8/columbia-shopping.png" alt="shopping" width="140px">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="max-width: 190px; display: inline-block;">
+                        <tr>
+                            <td style="padding: 20px;">
+                                <a href="#abc">
+                                    <img style="text-align: center;" src="https://i.ibb.co/nzQ7yhQ/columbia-members.png" alt="members" width="140px">
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100%; text-align: center; padding: 25px 0 50px; font-size: 14px; border-bottom: 1px solid #333333;">
+                    <a style="font-weight: 700; padding: 11px 55px; background-color: #000000; text-decoration: none; color: #ffffff;" href="#abc">JOIN FOR FREE</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="width: 100%; text-align: center; background-color: #f5f5f5; padding: 0 20px;">
+                        <tr>
+                            <td style="padding: 15px 0;">
+                                <a style="text-decoration: none; color: #333333;" href="#abc">
+                                    <img style="padding: 8px;" src="https://i.ibb.co/n3TYc3f/columbia-icon-gift-cards.png" alt="gift cards">
+                                    <p style="font-size: 14px; font-weight: 100;">Gift Cards</p>
+                                </a>
+                            </td>
+                            <td style="padding: 15px 0;">
+                                <a style="text-decoration: none; color: #333333;" href="#abc">
+                                    <img style="padding: 8px;" src="https://i.ibb.co/cywzfN3/columbia-icon-rewards.png" alt="greater rewards">
+                                    <p style="font-size: 14px; font-weight: 100;">Greater Rewards</p>
+                                </a>
+                            </td>
+                            <td style="padding: 15px 0;">
+                                <a style="text-decoration: none; color: #333333;" href="#abc">
+                                    <img style="padding: 8px;" src="https://i.ibb.co/87vNS8T/columbia-icon-find-store.png" alt="find a store">
+                                    <p style="font-size: 14px; font-weight: 100;">Find a Store</p>
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="width: 100%; text-align: center; background-color: #333333;">
+                        <tr>
+                            <td style="padding: 30px 0 10px;">
+                                <a href="#abc">
+                                    <img src="https://i.ibb.co/FhyJ5Wd/columbia-logo.png" alt="Columbia Logo" title="Columbia" width="115px">
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table style="width: 100%; max-width: 270px; margin: 0 auto; padding-bottom: 15px;">
+                                    <tr>
+                                        <td style="padding: 10px;">
+                                            <a style="text-decoration: none; color: #ffffff; font-size: 12px;" alt="store locator" href="#abc">Store&nbsp;Locator</a>
+                                        </td>
+                                        <td style="padding: 10px;">
+                                            <a style="text-decoration: none; color: #ffffff; font-size: 12px;" alt="my account" href="#abc">My&nbsp;Account</a>
+                                        </td>
+                                        <td style="padding: 10px;">
+                                            <a style="text-decoration: none; color: #ffffff; font-size: 12px;" alt="unsubscribe" href="#abc">Unsubscribe</a>
+                                        </td>
+                                        <td style="padding: 10px;">
+                                            <a style="text-decoration: none; color: #ffffff; font-size: 12px;" alt="contact" href="#abc">Contact&nbsp;Us</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table style="width: 100%; max-width: 238px; margin: 0 auto; padding-bottom: 25px;">
+                                    <tr>
+                                        <td>
+                                            <a href="#abc">
+                                                <img src="https://i.ibb.co/SvsB45H/columbia-social-fb.png" alt="facebook">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#abc">
+                                                <img src="https://i.ibb.co/Y2BZndk/columbia-social-twtr.png" alt="twitter">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#abc">
+                                                <img src="https://i.ibb.co/b1YCBZM/columbia-social-yt.png" alt="youtube">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#abc">
+                                                <img src="https://i.ibb.co/BBPR8RQ/columbia-social-pint.png" alt="pinterest">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#abc">
+                                                <img src="https://i.ibb.co/8bRSvkC/columbia-social-insta.png" alt="instagram" height="28px">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100%; text-align: center; padding-bottom: 30px;">
+                                <p style="font-size: 10px; color: #fefefe;">This email was sent by: Columbia Sportswear</p> 
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
